@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Priyank Trivedi | Lead DevOps Engineer</title>
     <meta name="description"
-        content="Portfolio of Priyank Trivedi, Lead DevOps Engineer specialized in Docker, Jenkins, Kubernetes, AWS, and Cloud Computing.">
+        content="Portfolio of Priyank Trivedi, Lead DevOps Engineer specializing in AWS, Kubernetes, Terraform, CI/CD, observability, and cloud reliability.">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,12 +14,13 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@400;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
 </head>
 
 <body>
     <nav id="navbar">
         <div class="nav-content">
-            <a href="#" class="logo"><img src="assets/images/devops_mobius_logo.svg" alt="DevOps Mobius Logo"></a>
+            <a href="#hero" class="logo" aria-label="Priyank Trivedi portfolio home"><img src="assets/images/DevOps_logo.png" alt="DevOps Logo"></a>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
@@ -37,11 +38,11 @@
             <div class="hero-text">
                 <h1>Hi, I'm <span class="highlight">Priyank Trivedi</span></h1>
                 <h2>Lead DevOps Engineer</h2>
-                <p>Automating infrastructure, streamlining CI/CD pipelines, and ensuring system reliability with a focus
-                    on cutting-edge cloud technologies.</p>
+                <p>I design reliable AWS and Kubernetes platforms, automate delivery pipelines, and help engineering
+                    teams ship faster without compromising security, uptime, or cost control.</p>
                 <div class="hero-buttons">
                     <a href="#experience" class="btn btn-primary">View Experience</a>
-                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
                 </div>
             </div>
             <div class="hero-image">
@@ -54,29 +55,27 @@
         <div class="container">
             <h2 class="section-title">About Me</h2>
             <div class="about-content">
-                <p class="about-text">Lead DevOps Engineer with 10+ years of progressive experience in infrastructure
-                    engineering, cloud architecture, and platform reliability. I specialize in designing and operating
-                    production-grade Kubernetes environments on AWS, building end-to-end CI/CD pipelines, and driving
-                    Infrastructure as Code adoption using Terraform. From architecting highly available EKS clusters to
-                    implementing GitOps-driven deployment workflows, I bring a strategic, automation-first mindset to
-                    every challenge — ensuring teams ship faster, systems scale seamlessly, and infrastructure remains
-                    secure and cost-optimized.</p>
+                <p class="about-text">Lead DevOps Engineer with 10+ years of experience across infrastructure
+                    engineering, cloud architecture, and platform reliability. I specialize in AWS, Kubernetes,
+                    Terraform, CI/CD automation, and observability practices that make systems easier to operate. My
+                    focus is simple: build secure, repeatable platforms that help teams deploy faster, recover with
+                    confidence, and keep cloud operations cost-aware.</p>
                 <div class="about-stats">
                     <div class="stat-item">
                         <span class="stat-number">10+</span>
-                        <span class="stat-label">Years of Experience</span>
+                        <span class="stat-label">Years in Infrastructure</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">4+</span>
+                        <span class="stat-label">Years in DevOps & Cloud</span>
                     </div>
                     <div class="stat-item">
                         <span class="stat-number">40%</span>
-                        <span class="stat-label">Faster Deployments</span>
+                        <span class="stat-label">Deployment Cycle Reduction</span>
                     </div>
                     <div class="stat-item">
                         <span class="stat-number">5+</span>
                         <span class="stat-label">Certifications</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number">99.9%</span>
-                        <span class="stat-label">Uptime Achieved</span>
                     </div>
                 </div>
                 <div class="quick-info">
@@ -86,11 +85,11 @@
                     </div>
                     <div class="info-item">
                         <i class="fas fa-envelope"></i>
-                        <span>devops.priyank@gmail.com</span>
+                        <a href="mailto:devops.priyank@gmail.com">devops.priyank@gmail.com</a>
                     </div>
                     <div class="info-item">
                         <i class="fab fa-linkedin"></i>
-                        <a href="https://www.linkedin.com/in/erpriyanktrivedi" target="_blank">LinkedIn Profile</a>
+                        <a href="https://www.linkedin.com/in/erpriyanktrivedi" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
                     </div>
                 </div>
             </div>
@@ -99,21 +98,22 @@
 
     <section id="experience" class="section bg-dark">
         <div class="container">
-            <h2 class="section-title">Work Experience</h2>
+            <h2 class="section-title">Professional Experience</h2>
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
                         <h3>Lead DevOps Engineer <span class="role-type">(Client: Kavia AI)</span></h3>
-                        <p class="date">09/2025 - PRESENT</p>
-                        <p>Leading the DevOps strategy and infrastructure evolution for Kavia AI. Focused on
-                            architecting scalable, secure, and cost-effective cloud solutions.</p>
+                        <p class="date">Sep 2025 - Present</p>
+                        <p>Leading DevOps strategy and cloud platform evolution for Kavia AI, with a focus on scalable,
+                            secure, and cost-effective infrastructure for AI workloads.</p>
                         <ul>
-                            <li>Architected and managed complex EKS environments for high-demand AI workloads.</li>
-                            <li>Designed advanced CI/CD architectures to support rapid feature deployment and automated
-                                scaling.</li>
-                            <li>Spearheading the transition towards a fully automated GitOps-driven infrastructure
-                                management.</li>
+                            <li>Architected and operated EKS environments for containerized application and AI
+                                workloads, with a focus on reliability, scalability, and cost control.</li>
+                            <li>Designed CI/CD workflows that support repeatable releases, faster feedback, and safer
+                                deployments across containerized services.</li>
+                            <li>Improving Terraform and CI/CD automation to reduce manual changes and improve
+                                deployment visibility.</li>
                         </ul>
                     </div>
                 </div>
@@ -121,16 +121,16 @@
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
                         <h3>DevOps Engineer</h3>
-                        <p class="date">09/2023 - 09/2025</p>
+                        <p class="date">Sep 2023 - Sep 2025</p>
                         <ul>
-                            <li>Engineered highly efficient CI/CD pipelines that reduced deployment cycle times by 40%.
-                            </li>
+                            <li>Engineered Jenkins and GitHub Actions pipelines that reduced deployment cycle times by
+                                40% through automated builds, tests, and release steps.</li>
                             <li>Implemented Infrastructure as Code (IaC) using Terraform, achieving consistent and
                                 repeatable environment provisioning across multiple AWS accounts.</li>
-                            <li>Enhanced system observability by implementing comprehensive logging, monitoring, and
-                                alerting frameworks.</li>
-                            <li>Lead cross-functional collaboration between Dev and Ops teams to integrate security best
-                                practices into the development lifecycle.</li>
+                            <li>Enhanced system observability with centralized logging, infrastructure monitoring, and
+                                actionable alerting for faster incident response.</li>
+                            <li>Led cross-functional collaboration between development and operations teams to integrate
+                                security best practices into the development lifecycle.</li>
                         </ul>
                     </div>
                 </div>
@@ -138,14 +138,14 @@
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
                         <h3>Cloud SysOps Administrator</h3>
-                        <p class="date">09/2022 - 09/2023</p>
+                        <p class="date">Sep 2022 - Sep 2023</p>
                         <ul>
-                            <li>Successfully migrated legacy workloads to AWS, improving overall system uptime and
-                                scalability.</li>
+                            <li>Migrated legacy workloads to AWS, improving system scalability and supporting higher
+                                availability targets.</li>
                             <li>Optimized cloud resource utilization through proactive monitoring and rightsizing of EC2
                                 instances.</li>
-                            <li>Established robust backup and disaster recovery protocols for mission-critical
-                                production environments.</li>
+                            <li>Established backup and disaster recovery processes for production workloads, improving
+                                recovery readiness and operational confidence.</li>
                             <li>Managed complex identity and access management (IAM) policies to ensure least-privilege
                                 security across cloud resources.</li>
                         </ul>
@@ -154,11 +154,11 @@
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <h3>Sr Network Engineer</h3>
-                        <p class="date">03/2015 - 09/2022</p>
+                        <h3>Senior Network Engineer</h3>
+                        <p class="date">Mar 2015 - Sep 2022</p>
                         <ul>
-                            <li>Designed and maintained large-scale enterprise network infrastructures, ensuring high
-                                availability and peak performance.</li>
+                            <li>Designed and maintained enterprise network infrastructure with a focus on availability,
+                                secure access, and consistent performance.</li>
                             <li>Secured internal networks by implementing advanced firewall policies, VPN tunnels, and
                                 intrusion detection systems.</li>
                             <li>Optimized directory services and group policies to streamline user management and
@@ -173,15 +173,16 @@
     <section id="projects" class="section">
         <div class="container">
             <h2 class="section-title">Infrastructure & Projects</h2>
+            <p class="projects-intro">A focused selection of cloud, Kubernetes, automation, and reliability work that reflects my hands-on DevOps experience.</p>
             <div class="projects-grid">
 
-                <!-- Advanced Projects -->
+                <!-- Cloud and platform projects -->
                 <div class="project-card">
-                    <div class="project-badge project-badge--advanced">Advanced</div>
+                    <div class="project-badge project-badge--platform">Cloud Platform</div>
                     <div class="project-icon"><i class="fas fa-network-wired"></i></div>
                     <div class="project-content">
                         <h3>Production EKS Cluster Architecture</h3>
-                        <p>Architected and deployed a multi-AZ, highly available Amazon EKS cluster using Terraform. Configured custom VPCs, public/private subnets, managed node groups with auto-scaling, IAM OIDC federation, and cluster add-ons (CoreDNS, kube-proxy, VPC CNI).</p>
+                        <p>Architected and deployed a multi-AZ Amazon EKS platform using Terraform. Built the VPC, public and private subnets, managed node groups, autoscaling, IAM OIDC federation, and core cluster add-ons to standardize Kubernetes environments and reduce manual setup effort.</p>
                         <div class="project-tags">
                             <span>AWS EKS</span><span>Terraform</span><span>Kubernetes</span><span>IAM OIDC</span>
                         </div>
@@ -189,11 +190,11 @@
                 </div>
 
                 <div class="project-card">
-                    <div class="project-badge project-badge--advanced">Advanced</div>
+                    <div class="project-badge project-badge--automation">Automation</div>
                     <div class="project-icon"><i class="fas fa-code-branch"></i></div>
                     <div class="project-content">
                         <h3>End-to-End CI/CD Pipeline</h3>
-                        <p>Built enterprise-grade CI/CD pipelines using Jenkins and GitHub Actions for microservices (FastAPI/Codegen). Implemented automated testing, Docker multi-stage builds, ECR image scanning, and zero-downtime blue/green deployments on EKS via Helm.</p>
+                        <p>Built CI/CD pipelines with Jenkins and GitHub Actions for containerized microservices. Added automated testing, Docker multi-stage builds, ECR image scanning, and Helm-based rolling deployments to reduce release effort and improve deployment consistency.</p>
                         <div class="project-tags">
                             <span>Jenkins</span><span>GitHub Actions</span><span>Docker</span><span>Helm</span><span>ECR</span>
                         </div>
@@ -201,36 +202,36 @@
                 </div>
 
                 <div class="project-card">
-                    <div class="project-badge project-badge--advanced">Advanced</div>
-                    <div class="project-icon"><i class="fas fa-infinity"></i></div>
+                    <div class="project-badge project-badge--automation">Automation</div>
+                    <div class="project-icon"><i class="fas fa-layer-group"></i></div>
                     <div class="project-content">
-                        <h3>GitOps with ArgoCD</h3>
-                        <p>Implemented a fully automated GitOps workflow using ArgoCD on EKS. Git repositories serve as the single source of truth for cluster state, enabling automated drift detection, self-healing deployments, and declarative environment management across staging and production.</p>
+                        <h3>Kubernetes Deployment Automation with Helm</h3>
+                        <p>Standardized application deployments on EKS using Helm charts and environment-specific values. Packaged Kubernetes manifests, versioned releases through CI/CD, and supported safer rollouts with health checks and rollback-ready workflows.</p>
                         <div class="project-tags">
-                            <span>ArgoCD</span><span>GitOps</span><span>Kubernetes</span><span>Helm</span>
+                            <span>Kubernetes</span><span>Helm</span><span>AWS EKS</span><span>CI/CD</span>
                         </div>
                     </div>
                 </div>
 
                 <div class="project-card">
-                    <div class="project-badge project-badge--advanced">Advanced</div>
+                    <div class="project-badge project-badge--reliability">Reliability</div>
                     <div class="project-icon"><i class="fas fa-chart-line"></i></div>
                     <div class="project-content">
                         <h3>Observability Stack (Prometheus + Grafana)</h3>
-                        <p>Deployed a full-stack observability platform using Prometheus, Grafana, and Loki on Kubernetes. Built custom dashboards for infrastructure and application metrics, configured alert rules, PagerDuty integration, and centralized log aggregation for production environments.</p>
+                        <p>Deployed a Kubernetes observability stack with Prometheus, Grafana, and Loki. Built dashboards for infrastructure and application metrics, configured alerting, integrated incident notifications, and centralized logs to improve production visibility.</p>
                         <div class="project-tags">
                             <span>Prometheus</span><span>Grafana</span><span>Loki</span><span>AlertManager</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- Intermediate Projects -->
+                <!-- Reliability and security projects -->
                 <div class="project-card">
-                    <div class="project-badge project-badge--intermediate">Intermediate</div>
+                    <div class="project-badge project-badge--platform">Cloud Platform</div>
                     <div class="project-icon"><i class="fas fa-server"></i></div>
                     <div class="project-content">
                         <h3>High-Availability EC2 Infrastructure</h3>
-                        <p>Automated provisioning of secure AWS EC2 environments with Terraform. Configured Auto Scaling Groups (ASG), Application Load Balancers (ALB), target group health checks, and custom CloudWatch alarms with SNS notifications for proactive incident response.</p>
+                        <p>Automated secure AWS EC2 environments with Terraform. Configured Auto Scaling Groups, Application Load Balancers, target group health checks, and CloudWatch alarms with SNS notifications to improve availability and incident response.</p>
                         <div class="project-tags">
                             <span>AWS EC2</span><span>Auto Scaling</span><span>ALB</span><span>CloudWatch</span>
                         </div>
@@ -238,11 +239,11 @@
                 </div>
 
                 <div class="project-card">
-                    <div class="project-badge project-badge--intermediate">Intermediate</div>
+                    <div class="project-badge project-badge--security">Security</div>
                     <div class="project-icon"><i class="fas fa-shield-alt"></i></div>
                     <div class="project-content">
                         <h3>AWS IAM & Security Hardening</h3>
-                        <p>Designed and enforced a least-privilege IAM strategy across multiple AWS accounts. Implemented IAM roles for service accounts (IRSA), SCPs in AWS Organizations, CloudTrail audit logging, AWS Config rules for compliance, and automated Security Hub findings remediation.</p>
+                        <p>Designed least-privilege IAM patterns across AWS environments. Implemented service roles, audit logging, compliance checks, and Security Hub workflows to strengthen access control and improve cloud security visibility.</p>
                         <div class="project-tags">
                             <span>AWS IAM</span><span>CloudTrail</span><span>AWS Config</span><span>Security Hub</span>
                         </div>
@@ -250,24 +251,24 @@
                 </div>
 
                 <div class="project-card">
-                    <div class="project-badge project-badge--intermediate">Intermediate</div>
+                    <div class="project-badge project-badge--reliability">Reliability</div>
                     <div class="project-icon"><i class="fas fa-database"></i></div>
                     <div class="project-content">
                         <h3>Disaster Recovery & Backup Automation</h3>
-                        <p>Designed and implemented automated backup and DR protocols for mission-critical workloads. Configured AWS Backup policies, cross-region RDS snapshots, S3 versioning with lifecycle rules, and regular DR drills to validate RTO/RPO targets.</p>
+                        <p>Designed automated backup and disaster recovery processes for critical workloads. Configured AWS Backup policies, cross-region RDS snapshots, S3 versioning, lifecycle rules, and recovery validation to improve business continuity readiness.</p>
                         <div class="project-tags">
                             <span>AWS Backup</span><span>RDS</span><span>S3</span><span>Route 53</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- Basic Projects -->
+                <!-- Automation projects -->
                 <div class="project-card">
-                    <div class="project-badge project-badge--basic">Foundational</div>
+                    <div class="project-badge project-badge--automation">Automation</div>
                     <div class="project-icon"><i class="fas fa-cubes"></i></div>
                     <div class="project-content">
                         <h3>Docker Containerization & Registry</h3>
-                        <p>Containerized multiple legacy and greenfield applications using Docker with optimized multi-stage builds to minimize image sizes. Set up private ECR and Docker Hub registries with automated vulnerability scanning and image lifecycle policies.</p>
+                        <p>Containerized legacy and new applications with Docker, using multi-stage builds to reduce image size and improve build repeatability. Set up ECR and Docker Hub registries with vulnerability scanning and image lifecycle policies.</p>
                         <div class="project-tags">
                             <span>Docker</span><span>ECR</span><span>Docker Hub</span><span>Multi-stage Builds</span>
                         </div>
@@ -275,11 +276,11 @@
                 </div>
 
                 <div class="project-card">
-                    <div class="project-badge project-badge--basic">Foundational</div>
+                    <div class="project-badge project-badge--automation">Automation</div>
                     <div class="project-icon"><i class="fas fa-terminal"></i></div>
                     <div class="project-content">
                         <h3>Linux & Shell Scripting Automation</h3>
-                        <p>Developed a library of reusable Bash and Python scripts for routine sysadmin and DevOps tasks — including automated log rotation, disk usage alerting, user provisioning, SSL certificate renewal, and server health check reporting via cron and systemd timers.</p>
+                        <p>Developed reusable Bash and Python automation for routine systems and DevOps tasks, including log rotation, disk usage alerts, user provisioning, SSL certificate renewal, and health reporting with cron and systemd timers.</p>
                         <div class="project-tags">
                             <span>Bash</span><span>Python</span><span>Linux</span><span>Cron</span>
                         </div>
@@ -293,31 +294,90 @@
     <section id="skills" class="section bg-dark">
         <div class="container">
             <h2 class="section-title">Skills & Technologies</h2>
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <i class="fas fa-cloud"></i>
-                    <h3>Cloud Infrastructure</h3>
-                    <p>AWS (EKS, EC2, S3, RDS, IAM, Route53, VPC), Google Cloud, Terraform (IaC)</p>
+            <p class="skills-intro">A practical platform engineering toolkit built from 10+ years in infrastructure and 4+ years focused on DevOps, cloud automation, and Kubernetes delivery.</p>
+            <div class="skills-matrix">
+                <div class="skill-domain skill-domain--primary">
+                    <div class="skill-domain-heading">
+                        <i class="fas fa-cloud"></i>
+                        <div>
+                            <span>Primary Focus</span>
+                            <h3>AWS Cloud Platform</h3>
+                        </div>
+                    </div>
+                    <p>Designing secure, repeatable AWS environments for application delivery, reliability, and operational visibility.</p>
+                    <div class="skill-stack">
+                        <span>EKS</span><span>EC2</span><span>VPC</span><span>IAM</span><span>S3</span><span>RDS</span><span>ECR</span><span>ALB</span><span>ASG</span><span>Route 53</span><span>CloudWatch</span><span>Amplify</span>
+                    </div>
                 </div>
-                <div class="skill-card">
-                    <i class="fas fa-cubes"></i>
-                    <h3>Orchestration & Tools</h3>
-                    <p>Kubernetes, Docker, Helm, GitOps, Configuration Management</p>
+
+                <div class="skill-domain">
+                    <div class="skill-domain-heading">
+                        <i class="fas fa-cubes"></i>
+                        <div>
+                            <span>Container Platform</span>
+                            <h3>Kubernetes & Docker</h3>
+                        </div>
+                    </div>
+                    <p>Operating containerized workloads with clear deployment structure, environment separation, and release consistency.</p>
+                    <div class="skill-stack">
+                        <span>Kubernetes</span><span>Docker</span><span>Helm</span><span>Manifests</span><span>Namespaces</span><span>Services</span><span>Ingress</span><span>Secrets</span><span>ConfigMaps</span>
+                    </div>
                 </div>
-                <div class="skill-card">
-                    <i class="fas fa-cogs"></i>
-                    <h3>CI/CD & Automation</h3>
-                    <p>Jenkins, GitHub Actions, CI/CD Pipeline Design, Process Automation</p>
+
+                <div class="skill-domain">
+                    <div class="skill-domain-heading">
+                        <i class="fas fa-code-branch"></i>
+                        <div>
+                            <span>Delivery Engineering</span>
+                            <h3>CI/CD & Release Automation</h3>
+                        </div>
+                    </div>
+                    <p>Building automated pipelines that reduce manual handoffs and make deployments faster, safer, and easier to repeat.</p>
+                    <div class="skill-stack">
+                        <span>Jenkins</span><span>GitHub Actions</span><span>Docker Builds</span><span>ECR Publishing</span><span>Amplify Hosting</span><span>Helm Releases</span><span>Rollback Planning</span>
+                    </div>
                 </div>
-                <div class="skill-card">
-                    <i class="fas fa-chart-line"></i>
-                    <h3>Observability & Security</h3>
-                    <p>CloudWatch, Prometheus, Grafana, Logging, CNSS Security, Network Security</p>
+
+                <div class="skill-domain">
+                    <div class="skill-domain-heading">
+                        <i class="fas fa-diagram-project"></i>
+                        <div>
+                            <span>Infrastructure as Code</span>
+                            <h3>Terraform Automation</h3>
+                        </div>
+                    </div>
+                    <p>Provisioning consistent environments through reusable Terraform patterns, version control, and reviewable changes.</p>
+                    <div class="skill-stack">
+                        <span>Terraform</span><span>Modules</span><span>Remote State</span><span>AWS Providers</span><span>Environment Values</span><span>Change Review</span>
+                    </div>
                 </div>
-                <div class="skill-card">
-                    <i class="fas fa-terminal"></i>
-                    <h3>OS & Scripting</h3>
-                    <p>Linux Administration, Advanced Shell Scripting, Python Automation</p>
+
+                <div class="skill-domain">
+                    <div class="skill-domain-heading">
+                        <i class="fas fa-chart-line"></i>
+                        <div>
+                            <span>Operations</span>
+                            <h3>Observability & Reliability</h3>
+                        </div>
+                    </div>
+                    <p>Improving production visibility through metrics, logs, alerting, and practical incident response workflows.</p>
+                    <div class="skill-stack">
+                        <span>Prometheus</span><span>Grafana</span><span>Loki</span><span>CloudWatch</span><span>Alerting</span><span>Dashboards</span><span>Log Analysis</span>
+                    </div>
+                </div>
+
+                <div class="skill-domain">
+                    <div class="skill-domain-heading">
+                        <i class="fas fa-shield-alt"></i>
+                        <div>
+                            <span>Security & Systems</span>
+                            <h3>Linux, IAM & Networking</h3>
+                        </div>
+                    </div>
+                    <p>Bringing a systems and network engineering foundation into cloud security, access control, and automation work.</p>
+                    <div class="skill-stack">
+                        <span>Linux</span><span>Bash</span><span>Python</span><span>IAM Hardening</span><span>Audit Logging</span><span>VPN</span><span>Firewall</span><span>Troubleshooting</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -334,7 +394,7 @@
                     </div>
                     <div class="cert-badge-body">
                         <span class="cert-badge-issuer">Amazon Web Services</span>
-                        <h4 class="cert-badge-name">Solutions Architect – Professional</h4>
+                        <h4 class="cert-badge-name">Solutions Architect - Professional</h4>
                         <span class="cert-badge-verify"><i class="fas fa-external-link-alt"></i> Verify</span>
                     </div>
                 </a>
@@ -401,13 +461,13 @@
     <section id="contact" class="section">
         <div class="container text-center">
             <h2 class="section-title">Let's Connect</h2>
-            <p class="contact-subtitle">Interested in collaborating or have a question? Feel free to reach out!</p>
+            <p class="contact-subtitle">Available for DevOps, AWS cloud platform, Kubernetes, and automation opportunities.</p>
             <div class="contact-cards">
                 <a href="mailto:devops.priyank@gmail.com" class="contact-card">
                     <i class="fas fa-envelope"></i>
                     <span>devops.priyank@gmail.com</span>
                 </a>
-                <a href="https://www.linkedin.com/in/erpriyanktrivedi" target="_blank" class="contact-card">
+                <a href="https://www.linkedin.com/in/erpriyanktrivedi" target="_blank" rel="noopener noreferrer" class="contact-card">
                     <i class="fab fa-linkedin"></i>
                     <span>LinkedIn Profile</span>
                 </a>
