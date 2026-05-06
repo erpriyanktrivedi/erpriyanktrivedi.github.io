@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Navbar scroll effect
     const navbar = document.getElementById('navbar');
+    const homeLink = document.querySelector('[data-home-link]');
     
     const sections = document.querySelectorAll('section, header[id]');
     const navLinks = document.querySelectorAll('.nav-links a');
@@ -40,6 +41,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
     window.addEventListener('scroll', handleScroll);
     handleScroll(); // Call once on load
+
+    if (homeLink) {
+        homeLink.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            navLinks.forEach(link => link.classList.remove('active'));
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+
+            const cleanPath = window.location.pathname.replace(/\/index\.html$/, '/') + window.location.search;
+            window.history.replaceState(null, '', cleanPath || '/');
+        });
+    }
 
     // Smooth scrolling for anchor links
     navLinks.forEach(anchor => {
