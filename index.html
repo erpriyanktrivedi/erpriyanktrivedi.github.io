@@ -20,7 +20,7 @@
 <body>
     <nav id="navbar">
         <div class="nav-content">
-            <a href="#hero" class="logo" aria-label="Priyank Trivedi portfolio home"><img src="assets/images/DevOps_logo.png" alt="DevOps Logo"></a>
+            <a href="#priyank" class="logo" aria-label="Priyank Trivedi portfolio home"><img src="assets/images/DevOps_logo.png" alt="DevOps Logo"></a>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
@@ -32,7 +32,7 @@
         </div>
     </nav>
 
-    <header id="hero">
+    <header id="priyank">
         <div class="hero-bg" style="background-image: url('assets/images/hero-bg.png');"></div>
         <div class="hero-content">
             <div class="hero-text">
@@ -184,48 +184,11 @@
                         <h3>Production EKS Cluster Architecture</h3>
                         <p>Architected and deployed a multi-AZ Amazon EKS platform using Terraform. Built the VPC, public and private subnets, managed node groups, autoscaling, IAM OIDC federation, and core cluster add-ons to standardize Kubernetes environments and reduce manual setup effort.</p>
                         <div class="project-tags">
-                            <span>AWS EKS</span><span>Terraform</span><span>Kubernetes</span><span>IAM OIDC</span>
+                            <span>AWS</span><span>EKS</span><span>Terraform</span><span>Kubernetes</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="project-card">
-                    <div class="project-badge project-badge--automation">Automation</div>
-                    <div class="project-icon"><i class="fas fa-code-branch"></i></div>
-                    <div class="project-content">
-                        <h3>End-to-End CI/CD Pipeline</h3>
-                        <p>Built CI/CD pipelines with Jenkins and GitHub Actions for containerized microservices. Added automated testing, Docker multi-stage builds, ECR image scanning, and Helm-based rolling deployments to reduce release effort and improve deployment consistency.</p>
-                        <div class="project-tags">
-                            <span>Jenkins</span><span>GitHub Actions</span><span>Docker</span><span>Helm</span><span>ECR</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-badge project-badge--automation">Automation</div>
-                    <div class="project-icon"><i class="fas fa-layer-group"></i></div>
-                    <div class="project-content">
-                        <h3>Kubernetes Deployment Automation with Helm</h3>
-                        <p>Standardized application deployments on EKS using Helm charts and environment-specific values. Packaged Kubernetes manifests, versioned releases through CI/CD, and supported safer rollouts with health checks and rollback-ready workflows.</p>
-                        <div class="project-tags">
-                            <span>Kubernetes</span><span>Helm</span><span>AWS EKS</span><span>CI/CD</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-badge project-badge--reliability">Reliability</div>
-                    <div class="project-icon"><i class="fas fa-chart-line"></i></div>
-                    <div class="project-content">
-                        <h3>Observability Stack (Prometheus + Grafana)</h3>
-                        <p>Deployed a Kubernetes observability stack with Prometheus, Grafana, and Loki. Built dashboards for infrastructure and application metrics, configured alerting, integrated incident notifications, and centralized logs to improve production visibility.</p>
-                        <div class="project-tags">
-                            <span>Prometheus</span><span>Grafana</span><span>Loki</span><span>AlertManager</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Reliability and security projects -->
                 <div class="project-card">
                     <div class="project-badge project-badge--platform">Cloud Platform</div>
                     <div class="project-icon"><i class="fas fa-server"></i></div>
@@ -233,19 +196,57 @@
                         <h3>High-Availability EC2 Infrastructure</h3>
                         <p>Automated secure AWS EC2 environments with Terraform. Configured Auto Scaling Groups, Application Load Balancers, target group health checks, and CloudWatch alarms with SNS notifications to improve availability and incident response.</p>
                         <div class="project-tags">
-                            <span>AWS EC2</span><span>Auto Scaling</span><span>ALB</span><span>CloudWatch</span>
+                            <span>AWS</span><span>EC2</span><span>ALB</span><span>CloudWatch</span>
                         </div>
                     </div>
                 </div>
 
                 <div class="project-card">
-                    <div class="project-badge project-badge--security">Security</div>
-                    <div class="project-icon"><i class="fas fa-shield-alt"></i></div>
+                    <div class="project-badge project-badge--platform">Container Platform</div>
+                    <div class="project-icon"><i class="fas fa-cubes"></i></div>
                     <div class="project-content">
-                        <h3>AWS IAM & Security Hardening</h3>
-                        <p>Designed least-privilege IAM patterns across AWS environments. Implemented service roles, audit logging, compliance checks, and Security Hub workflows to strengthen access control and improve cloud security visibility.</p>
+                        <h3>Docker Containerization & Registry</h3>
+                        <p>Containerized legacy and new applications with Docker, using multi-stage builds to reduce image size and improve build repeatability. Set up ECR and Docker Hub registries with vulnerability scanning and image lifecycle policies.</p>
                         <div class="project-tags">
-                            <span>AWS IAM</span><span>CloudTrail</span><span>AWS Config</span><span>Security Hub</span>
+                            <span>Docker</span><span>ECR</span><span>Image Scanning</span><span>Multi-stage Builds</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Delivery projects -->
+                <div class="project-card">
+                    <div class="project-badge project-badge--delivery">Delivery</div>
+                    <div class="project-icon"><i class="fas fa-code-branch"></i></div>
+                    <div class="project-content">
+                        <h3>End-to-End CI/CD Pipeline</h3>
+                        <p>Built CI/CD pipelines with Jenkins and GitHub Actions for containerized microservices. Added automated testing, Docker multi-stage builds, ECR image scanning, and Helm-based rolling deployments to reduce release effort and improve deployment consistency.</p>
+                        <div class="project-tags">
+                            <span>Jenkins</span><span>GitHub Actions</span><span>Docker</span><span>Helm</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-badge project-badge--orchestration">Orchestration</div>
+                    <div class="project-icon"><i class="fas fa-layer-group"></i></div>
+                    <div class="project-content">
+                        <h3>Kubernetes Deployment Automation with Helm</h3>
+                        <p>Standardized application deployments on EKS using Helm charts and environment-specific values. Packaged Kubernetes manifests, versioned releases through CI/CD, and supported safer rollouts with health checks and rollback-ready workflows.</p>
+                        <div class="project-tags">
+                            <span>Kubernetes</span><span>Helm</span><span>EKS</span><span>CI/CD</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Reliability and security projects -->
+                <div class="project-card">
+                    <div class="project-badge project-badge--reliability">Reliability</div>
+                    <div class="project-icon"><i class="fas fa-chart-line"></i></div>
+                    <div class="project-content">
+                        <h3>Observability Stack (Prometheus + Grafana)</h3>
+                        <p>Deployed a Kubernetes observability stack with Prometheus, Grafana, and Loki. Built dashboards for infrastructure and application metrics, configured alerting, integrated incident notifications, and centralized logs to improve production visibility.</p>
+                        <div class="project-tags">
+                            <span>Prometheus</span><span>Grafana</span><span>Loki</span><span>Alerting</span>
                         </div>
                     </div>
                 </div>
@@ -257,7 +258,19 @@
                         <h3>Disaster Recovery & Backup Automation</h3>
                         <p>Designed automated backup and disaster recovery processes for critical workloads. Configured AWS Backup policies, cross-region RDS snapshots, S3 versioning, lifecycle rules, and recovery validation to improve business continuity readiness.</p>
                         <div class="project-tags">
-                            <span>AWS Backup</span><span>RDS</span><span>S3</span><span>Route 53</span>
+                            <span>AWS Backup</span><span>RDS</span><span>S3</span><span>Disaster Recovery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-badge project-badge--security">Security</div>
+                    <div class="project-icon"><i class="fas fa-shield-alt"></i></div>
+                    <div class="project-content">
+                        <h3>AWS IAM & Security Hardening</h3>
+                        <p>Designed least-privilege IAM patterns across AWS environments. Implemented service roles, audit logging, compliance checks, and Security Hub workflows to strengthen access control and improve cloud security visibility.</p>
+                        <div class="project-tags">
+                            <span>IAM</span><span>CloudTrail</span><span>AWS Config</span><span>Security Hub</span>
                         </div>
                     </div>
                 </div>
@@ -265,24 +278,12 @@
                 <!-- Automation projects -->
                 <div class="project-card">
                     <div class="project-badge project-badge--automation">Automation</div>
-                    <div class="project-icon"><i class="fas fa-cubes"></i></div>
-                    <div class="project-content">
-                        <h3>Docker Containerization & Registry</h3>
-                        <p>Containerized legacy and new applications with Docker, using multi-stage builds to reduce image size and improve build repeatability. Set up ECR and Docker Hub registries with vulnerability scanning and image lifecycle policies.</p>
-                        <div class="project-tags">
-                            <span>Docker</span><span>ECR</span><span>Docker Hub</span><span>Multi-stage Builds</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-badge project-badge--automation">Automation</div>
                     <div class="project-icon"><i class="fas fa-terminal"></i></div>
                     <div class="project-content">
                         <h3>Linux & Shell Scripting Automation</h3>
                         <p>Developed reusable Bash and Python automation for routine systems and DevOps tasks, including log rotation, disk usage alerts, user provisioning, SSL certificate renewal, and health reporting with cron and systemd timers.</p>
                         <div class="project-tags">
-                            <span>Bash</span><span>Python</span><span>Linux</span><span>Cron</span>
+                            <span>Bash</span><span>Python</span><span>Linux</span><span>systemd</span>
                         </div>
                     </div>
                 </div>

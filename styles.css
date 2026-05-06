@@ -117,7 +117,7 @@ a {
 }
 
 /* Hero Section */
-#hero {
+#priyank {
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -573,6 +573,9 @@ a {
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     position: relative;
     backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    min-height: 365px;
 }
 
 .project-card::before {
@@ -623,6 +626,18 @@ a {
     border: 1px solid rgba(255, 165, 0, 0.3);
 }
 
+.project-badge--delivery {
+    background: rgba(74, 163, 255, 0.14);
+    color: #4aa3ff;
+    border: 1px solid rgba(74, 163, 255, 0.35);
+}
+
+.project-badge--orchestration {
+    background: rgba(0, 210, 180, 0.13);
+    color: #2dd4bf;
+    border: 1px solid rgba(45, 212, 191, 0.32);
+}
+
 .project-badge--reliability {
     background: rgba(120, 200, 120, 0.12);
     color: #78c878;
@@ -647,12 +662,16 @@ a {
     padding: 0 30px 30px;
     position: relative;
     z-index: 1;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
 }
 
 .project-content h3 {
     font-size: 1.4rem;
     margin-bottom: 15px;
     color: #fff;
+    min-height: 58px;
 }
 
 .project-content p {
@@ -660,22 +679,47 @@ a {
     font-size: 0.95rem;
     margin-bottom: 20px;
     line-height: 1.7;
+    flex: 1;
 }
 
 .project-tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 8px;
+    align-items: flex-end;
+    align-content: flex-end;
+    margin-top: auto;
+    padding-top: 16px;
+    border-top: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.project-tags::before {
+    content: 'Stack';
+    flex-basis: 100%;
+    color: var(--text-muted);
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1;
+    margin-bottom: 2px;
+    text-transform: uppercase;
 }
 
 .project-tags span {
-    background: rgba(0, 229, 255, 0.1);
-    color: var(--primary-color);
-    padding: 5px 12px;
-    border-radius: 20px;
-    font-size: 0.8rem;
+    background: rgba(255, 255, 255, 0.035);
+    color: var(--text-main);
+    padding: 7px 9px;
+    border-radius: 4px;
+    font-size: 0.74rem;
     font-weight: 600;
-    border: 1px solid rgba(0, 229, 255, 0.2);
+    border: 1px solid rgba(0, 229, 255, 0.16);
+    line-height: 1.1;
+    min-height: 28px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    white-space: nowrap;
 }
 
 /* Certifications */
