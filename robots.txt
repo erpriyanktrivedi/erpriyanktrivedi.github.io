@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://erpriyanktrivedi.github.io/sitemap.xml
